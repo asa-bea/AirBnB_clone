@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 
 """
-A module that contains the BaseModel class
+this is a module containg the BaseModel class
 """
 
 import uuid
@@ -11,11 +11,11 @@ import models
 
 class BaseModel():
     """
-    This is BaseModel which will serve as the parent of all other model class
+    BaseModel which will serve as the parent of all other model class
     """
 
     def __init__(self, *args, **kwargs):
-        """Instance Attribute Initialization"""
+        """ Initialize instance attributes """
 
         self.id = str(uuid.uuid4())
         self.created_at = datetime.now()
@@ -34,7 +34,7 @@ class BaseModel():
             models.storage.new(self)
 
     def __str__(self):
-        """ controls what the various instances should return """
+        """ returns an informal representation of the instance """
 
         return "[{}] ({}) {}".format(
             self.__class__.__name__, self.id, self.__dict__)
@@ -46,7 +46,7 @@ class BaseModel():
         models.storage.save()
 
     def to_dict(self):
-        """returns a dictionary containing all key/values of that instances """
+        """ converts the instance to a dictionary """
 
         instance_dict = self.__dict__.copy()
         instance_dict["created_at"] = self.created_at.isoformat()
