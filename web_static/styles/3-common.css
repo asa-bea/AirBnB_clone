@@ -1,7 +1,20 @@
+<<<<<<< HEAD
 body {
+=======
+/*
+ * === Global style ===
+ */
+
+/* Global style */
+body{
+>>>>>>> 8d8870eeb6947ab77292d5ba390a7cbdca5ce6a4
     margin: 0;
     padding: 0;
     color: #484848;
     font-size: 14px;
     font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+<<<<<<< HEAD
 }
+=======
+ }
+>>>>>>> 8d8870eeb6947ab77292d5ba390a7cbdca5ce6a4

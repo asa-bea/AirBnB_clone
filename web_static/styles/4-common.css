@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0;
     padding: 0;
@@ -13,3 +14,25 @@ body {
     margin-right: auto;
     margin-left: auto;
   }
+=======
+/*
+ * === Global style ===
+ */
+
+/* Global style */
+body{
+    color: #484848;
+    margin: 0;
+    padding: 0;
+    font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ .container{
+    margin: 30px auto;
+    max-width: 1000px;
+ }
+
+ /*strong*/
+ strong {
+   font-weight: bold;
+ }
+>>>>>>> 8d8870eeb6947ab77292d5ba390a7cbdca5ce6a4

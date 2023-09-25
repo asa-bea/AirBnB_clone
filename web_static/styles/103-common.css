@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body {
     margin: 0px;
     padding: 0px;
@@ -18,3 +19,27 @@ body {
       flex-wrap: wrap;
     }
   }
+=======
+/*
+ * === Global style ===
+ */
+
+/* Global style */
+body{
+    color: #484848;
+    font: 14px Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+ }
+ html, body {
+    width: 100%;
+    overflow-x: hidden;
+ }
+ .container{
+    margin: 30px auto;
+    max-width: 1000px;
+ }
+
+ /*strong*/
+ strong {
+   font-weight: bold;
+ }
+>>>>>>> 8d8870eeb6947ab77292d5ba390a7cbdca5ce6a4
